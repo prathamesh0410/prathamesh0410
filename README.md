@@ -162,35 +162,108 @@ status: "🔍 Actively seeking Full-time Backend/GenAI roles"
 
 ---
 
-### 📊 GitHub Analytics
+### 📈 Key Impact & Metrics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathamesh0410&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
-</p>
+<table>
+<tr>
+<td width="50%">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=prathamesh0410&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+**Production Impact (Specbee / Trumetric.ai)**
+- ⚡ **40% latency reduction** — SQL optimization across MySQL/MSSQL/Oracle for TruSearch
+- 🌍 **Multi-national deployment** — Serving US (Altru) & India (HCG) clients
+- 📄 **Document governance platform** — Full backend: workflows, approvals, audit trails
+- 🔍 **Enterprise search** — Multilingual semantic search with LLM query understanding
+- 🧪 **85% test coverage** — Unit, integration, E2E (Playwright) across projects
+- 🔄 **CI/CD automation** — GitHub Actions pipelines with pre-merge validation
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=prathamesh0410&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
-</p>
+</td>
+<td width="50%">
+
+**Personal Projects**
+- 🏦 **FinSight-RAG** — Banking RAG system: hybrid search, citations, streaming, RAGAS eval
+- 📊 **Sales Insights BI** — End-to-end: SQL ETL → Power BI dashboards → KPI tracking
+- 🤖 **GenAI R&D** — RAG prototypes (LangChain + OpenAI + ChromaDB) for internal KB
+- 🌾 **ML Forecasting** — XGBoost/SARIMA pipelines with automated retraining (MAE/RMSE optimized)
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🐍 Contribution Snake
+### 🎯 Featured Repositories
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
+<!-- FinSight-RAG -->
+<details>
+<summary><b>🔥 FinSight-RAG</b> — Banking Document Intelligence RAG System</summary>
+
+**Stack:** `FastAPI` `LangChain` `ChromaDB` `PostgreSQL` `Redis` `Docker` `Streamlit` `pytest`
+
+**Highlights:**
+- Hybrid retrieval: dense (embeddings) + sparse (BM25) with reciprocal rank fusion
+- PDF → chunking → metadata extraction → embeddings → vector store pipeline
+- Cited answers with page references; real-time streaming via SSE
+- RAGAS evaluation (faithfulness, answer relevance, context precision)
+- JWT auth, rate limiting, audit logging; Docker + GitHub Actions CI/CD
+
+[View Repository](https://github.com/prathamesh0410/FinSight-RAG) • [Live Demo](https://finsight-rag.streamlit.app)
+
+</details>
+
+<!-- DocuQuery / GenAI Projects -->
+<details>
+<summary><b>📄 DocuQuery</b> — RAG Document Intelligence (LangChain + ChromaDB)</summary>
+
+**Stack:** `FastAPI` `LangChain` `ChromaDB` `Streamlit` `Docker`
+
+**Highlights:**
+- Multi-document upload, chunking, embedding, vector search
+- Cited LLM answers with source tracking
+- Chat history, multi-doc comparison
+- Dockerized with Streamlit UI + REST API
+
+[View Repository](https://github.com/prathamesh0410/DocuQuery)
+
+</details>
+
+<!-- TaskFlow -->
+<details>
+<summary><b>⚡ TaskFlow</b> — Production Task Management API</summary>
+
+**Stack:** `FastAPI` `PostgreSQL` `SQLAlchemy` `Celery` `Redis` `Playwright` `Docker` `GitHub Actions`
+
+**Highlights:**
+- JWT auth, RBAC, projects/tasks/comments, search, pagination
+- Background jobs (Celery + Redis), WebSocket notifications
+- 85% coverage: unit + integration + E2E (Playwright)
+- Auto-deploy to Render via GitHub Actions
+
+[View Repository](https://github.com/prathamesh0410/TaskFlow)
+
+</details>
+
+<!-- Poultry Forecasting -->
+<details>
+<summary><b>🌾 Poultry Feed Demand Forecasting</b> — ML Pipeline (XGBoost + SARIMA)</summary>
+
+**Stack:** `Python` `XGBoost` `SARIMA` `SQL` `Pandas` `MLflow`
+
+**Highlights:**
+- End-to-end: data ingestion → feature engineering → training → forecasting
+- Features: lag, rolling, temporal; models: XGBoost (best), SARIMA, RF
+- Automated retraining pipeline; evaluated on MAE/RMSE
+
+[View Repository](https://github.com/prathamesh0410/Poultry-Forecasting)
+
+</details>
 
 ---
 
-### 📈 Activity Graph
+### 📜 Technical Writing & Community
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=prathamesh0410&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
-</p>
+- 📝 **Blog:** [Medium / Dev.to / Personal] — *Add your blog URL here*
+- 🎤 **Talks:** *Add any meetup/conference talks here*
+- 💡 **Open Source:** Contributor to *add any OSS projects here*
 
 ---
 
