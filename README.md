@@ -123,17 +123,17 @@ status: "🔍 Actively seeking Full-time Backend/GenAI roles"
 `Java` `Spring Boot` `MySQL` `MSSQL` `Oracle` `Elasticsearch`
 > Enterprise search serving multi-national clients (USA, India). LLM-based query understanding.
 
-#### **📄 DocuQuery** — *RAG Document Intelligence*
-`FastAPI` `LangChain` `ChromaDB` `Streamlit` `Docker`
-> PDF upload → Chunking → Embeddings → Vector Search → Cited LLM Answers. Multi-doc comparison.
+#### **📄 DocuTrust** — *Document Governance Platform*
+`FastAPI` `MySQL` `Docker` `GitHub Actions` `SQLAlchemy` `Alembic`
+> Document governance backend: CRUD APIs, workflow engine, approval chains, audit logging, clean architecture (API/Domain/Infra layers). Multi-RDBMS support.
 
-#### **⚡ TaskFlow** — *Production Task Management API*
-`FastAPI` `PostgreSQL` `SQLAlchemy` `Celery` `Redis` `Playwright` `Docker` `GitHub Actions`
-> JWT Auth, RBAC, Projects/Tasks/Comments, Search, Pagination, Background Jobs. 85% coverage.
+#### **📊 Sales Insights & Analytics** — *Business Intelligence Dashboard*
+`SQL` `Power BI` `Python` `Pandas` `ETL`
+> End-to-end BI: SQL ETL → Data modeling → KPI definitions → Interactive Power BI dashboards. Revenue trends, customer segmentation, product performance, regional sales.
 
-#### **🌾 Poultry Feed Demand Forecasting**
-`Python` `XGBoost` `SARIMA` `SQL` `Pandas` `MLflow`
-> End-to-end ML pipeline with automated retraining. Feature engineering (lag, rolling, temporal).
+#### **🏨 Hotel Management System** — *Full-Stack Web Application*
+`HTML` `CSS` `JavaScript` `MySQL` `Bootstrap`
+> Full-stack web app: Room booking, customer management, billing, MySQL persistence. Responsive UI with admin panel.
 
 ---
 
