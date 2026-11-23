@@ -105,27 +105,36 @@ status: "🔍 Actively seeking Full-time Backend/GenAI roles"
 | **Graduate Trainee - Backend** | **Specbee (Trumetric.ai)** | Oct 2025 – Present | `Java/Spring Boot` `Python/FastAPI` `MySQL/MSSQL/Oracle` `Docker` `K8s` `GitHub Actions` |
 | **Projects** | **Freelance / Academic** | 2023 – 2025 | `FastAPI` `PostgreSQL` `XGBoost` `LangChain` `ChromaDB` `Streamlit` |
 
-**Key Achievements:**
-- 🎯 **TruSearch**: Optimized SQL queries across 3 RDBMS → **40% latency reduction**
-- 📄 **DocuTrust**: Built document governance backend with workflow engine, audit logging, clean architecture
-- 🤖 **GenAI Initiative**: Prototyped RAG-based document Q&A (LangChain + OpenAI + ChromaDB)
-- 🧪 **Quality**: 85% test coverage, CI/CD pipelines, pre-merge API validation
+**Key Achievements (Specbee / Trumetric.ai):**
+
+| Project | Type | My Contribution | Impact |
+|---------|------|-----------------|--------|
+| **TruSearch** | Company Product (Multilingual Semantic Search) | • Optimized complex SQL queries across MySQL/MSSQL/Oracle<br>• Built REST APIs for search/filtering/analytics<br>• Debugged production issues for US (Altru) & India (HCG) clients<br>• Wrote integration tests & validation queries | **40% latency reduction**; multi-national production deployment |
+| **DocuTrust** | Company Product (Document Governance) | • Designed & built FastAPI backend (clean architecture: API/Domain/Infra)<br>• Implemented workflow engine, approval chains, audit logging<br>• Built CRUD APIs, MySQL persistence with SQLAlchemy/Alembic<br>• API integration testing, data integrity verification | Document compliance platform with multi-RDBMS support |
+| **GenAI Initiative** | Internal R&D | • Prototyped RAG-based document Q&A (LangChain + OpenAI + ChromaDB)<br>• Built internal knowledge base search for team | Proof-of-concept for GenAI adoption |
+
+**Quality & Process:**
+- 🧪 85% test coverage (unit + integration + E2E with Playwright)
+- 🔄 CI/CD pipelines with GitHub Actions
+- ✅ Pre-merge API validation checks reducing bug escape rate
 
 ---
 
 ### 🏗️ Projects
 
-#### **🔥 FinSight-RAG** — *Banking Document Intelligence*
+#### **🔥 FinSight-RAG** — *Banking Document Intelligence* *(Personal)*
 `FastAPI` `LangChain` `ChromaDB` `PostgreSQL` `Redis` `Docker` `Streamlit`
 > Production RAG system for financial documents. Hybrid search, cited answers, streaming, RAGAS evaluation.
 
-#### **🔍 TruSearch** — *Multilingual Semantic Search Platform*
+#### **🔍 TruSearch** — *Multilingual Semantic Search Platform* **(Specbee Product)**
 `Java` `Spring Boot` `MySQL` `MSSQL` `Oracle` `Elasticsearch`
-> Enterprise search serving multi-national clients (USA, India). LLM-based query understanding.
+> Enterprise search serving multi-national clients (USA/India). LLM-based query understanding.
+> **My role:** SQL optimization (40% latency reduction), REST APIs, production debugging, test automation.
 
-#### **📄 DocuTrust** — *Document Governance Platform*
+#### **📄 DocuTrust** — *Document Governance Platform* **(Specbee Product)**
 `FastAPI` `MySQL` `Docker` `GitHub Actions` `SQLAlchemy` `Alembic`
-> Document governance backend: CRUD APIs, workflow engine, approval chains, audit logging, clean architecture (API/Domain/Infra layers). Multi-RDBMS support.
+> Document governance: CRUD APIs, workflow engine, approval chains, audit logging, clean architecture.
+> **My role:** Full backend development (API/Domain/Infra layers), MySQL persistence, CI/CD.
 
 #### **📊 Sales Insights & Analytics** — *Business Intelligence Dashboard*
 `SQL` `Power BI` `Python` `Pandas` `ETL`
