@@ -61,32 +61,52 @@ status: "🔍 Actively seeking Full-time Backend/GenAI roles"
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack (from Resume)
 
-#### **Backend & APIs**
+#### **Languages & Backend**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,go,nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=python,java,fastapi,spring" />
+  <img src="https://img.shields.io/badge/REST_API-FF6B6B?style=flat" />
+  <img src="https://img.shields.io/badge/SQL_Advanced-00D4AA?style=flat" />
 </p>
 
-#### **Databases & Storage**
+#### **Databases**
 <p>
-  <img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,redis,sqlite" />
+  <img src="https://skillicons.dev/icons?i=postgresql,mysql,redis" />
+  <img src="https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Alembic-Migrations-00D4AA?style=flat" />
 </p>
 
-#### **GenAI / ML**
+#### **GenAI / LLM**
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" />
   <img src="https://img.shields.io/badge/LangChain-00D4AA?style=flat&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-8B5CF6?style=flat&logo=chroma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pinecone-00D4AA?style=flat&logo=pinecone&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-00D4AA?style=flat" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Anthropic-00D4AA?style=flat&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-Pipelines-8B5CF6?style=flat" />
+  <img src="https://img.shields.io/badge/ChromaDB-8B5CF6?style=flat&logo=chroma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pinecone-00D4AA?style=flat&logo=pinecone&logoColor=white" />
   <img src="https://img.shields.io/badge/RAGAS-Evaluation-FF6B6B?style=flat" />
+</p>
+
+#### **ML / Data**
+<p>
+  <img src="https://skillicons.dev/icons?i=sklearn,pandas,numpy" />
+  <img src="https://img.shields.io/badge/XGBoost-EC5E2D?style=flat&logo=xgboost&logoColor=white" />
+  <img src="https://img.shields.io/badge/LightGBM-00D4AA?style=flat" />
+  <img src="https://img.shields.io/badge/SARIMA-Forecasting-FF6B6B?style=flat" />
+  <img src="https://img.shields.io/badge/Prophet-Forecasting-00D4AA?style=flat" />
+  <img src="https://img.shields.io/badge/MLflow-Tracking-0194E2?style=flat&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=white" />
 </p>
 
 #### **DevOps & Cloud**
 <p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,azure,gcp,linux,nginx,githubactions,git" />
+  <img src="https://skillicons.dev/icons?i=docker,githubactions,linux,nginx,aws" />
+  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes_Basic-326CE5?style=flat&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS_EC2_S3_Lambda-FF9900?style=flat&logo=amazonaws&logoColor=white" />
 </p>
 
 #### **Testing & Quality**
@@ -94,6 +114,7 @@ status: "🔍 Actively seeking Full-time Backend/GenAI roles"
   <img src="https://skillicons.dev/icons?i=pytest,playwright" />
   <img src="https://img.shields.io/badge/Testcontainers-Testing-FF6B6B?style=flat" />
   <img src="https://img.shields.io/badge/Coverage-%3E80%25-brightgreen?style=flat" />
+  <img src="https://img.shields.io/badge/Git-VCS-F05032?style=flat&logo=git&logoColor=white" />
 </p>
 
 ---
