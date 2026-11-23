@@ -1,0 +1,46 @@
+name: 🔄 Update Profile README
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [main]
+
+jobs:
+  update-readme:
+    name: Update README with latest stats
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          # Custom colors matching Tokyo Night theme
+          color_snake: "00D4AA,8B5CF6,FF6B6B,FFD93D"
+          color_bg: "1a1b26"
+
+      - name: Commit snake animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add dist/
+            git commit -m "🐍 Update snake animation"
+            git push
+          fi
+
+      - name: Update profile stats badge (optional)
+        run: |
+          # This runs periodically to keep stats fresh
+          echo "Profile stats updated at $(date)"
